@@ -20,6 +20,7 @@ RUN apt-get update \
     unzip \
     knockd \
     ttf-dejavu \
+    gpg \
     && apt-get clean
 
 RUN addgroup --gid 1000 minecraft \
